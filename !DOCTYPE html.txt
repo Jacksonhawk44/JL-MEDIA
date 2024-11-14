@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JL Event Media</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JL Event Media</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#facts">Facts</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Event Planning</h3>
+                    <p>We provide end-to-end event planning services for corporate events, weddings, and more.</p>
+                </div>
+                <div class="service">
+                    <h3>Media Production</h3>
+                    <p>Professional video and photo services for all types of events, ensuring memories are captured beautifully.</p>
+                </div>
+                <div class="service">
+                    <h3>Live Streaming</h3>
+                    <p>Live streaming services for events, conferences, and webinars, making your events accessible to all.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="review">
+                <p>"JL Event Media transformed our wedding day into a dream! Their team was professional, and the media coverage was perfect!"</p>
+                <p>- Sarah & James</p>
+            </div>
+            <div class="review">
+                <p>"The live stream for our conference was flawless. JL Event Media handled everything with ease, and our audience loved it!"</p>
+                <p>- Brian T.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="facts">
+        <div class="container">
+            <h2>Facts About Us</h2>
+            <ul>
+                <li>Over 10 years of experience in the event media industry.</li>
+                <li>Handled over 500 successful events.</li>
+                <li>Specializing in both small and large scale events.</li>
+                <li>Serving clients nationwide.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 JL Event Media. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
